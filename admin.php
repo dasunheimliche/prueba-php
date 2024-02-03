@@ -587,30 +587,9 @@ if (isset($_SESSION["id"]) && $_SESSION["id"] != "") {
         </section>
         <!-- Listing Area End Here -->
         <!-- Footer Area Start Here -->
-        <footer>
-            <section class="footer-bottom-wrap2">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-6 col-12">
-                            <div class="copyright-wrap">
-                                <div class="copyright">2018 Copyright © listygo.com</div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-12">
-                            <div class="footer-social-wrap">
-                                <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </footer>
+        
+        <?php include 'footer.php'; ?>
+        
         <!-- Footer Area End Here -->
     </div>
     <!-- Modal Start-->

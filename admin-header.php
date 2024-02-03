@@ -28,31 +28,31 @@
                                         <a href="#">Listing</a>
                                         <ul class="dropdown-menu-col-1">
                                             <li>
-                                                <a href="listing-grid-view1.html">Listing Grid View 1</a>
+                                                <a href="#">Listing Grid View 1</a>
                                             </li>
                                             <li>
-                                                <a href="listing-grid-view2.html">Listing Grid View 2</a>
+                                                <a href="listing-grid-view2.php">Listing Grid View 2</a>
                                             </li>
                                             <li>
-                                                <a href="listing-grid-view3.html">Listing Grid View 3</a>
+                                                <a href="listing-grid-view3.php">Listing Grid View 3</a>
                                             </li>
                                             <li>
-                                                <a href="listing-grid-view4.html">Listing Grid View 4</a>
+                                                <a href="listing-grid-view4.php">Listing Grid View 4</a>
                                             </li>
                                             <li>
                                                 <a href="listing-grid-view5.html">Listing Grid View 5</a>
                                             </li>
                                             <li>
-                                                <a href="listing-list-view1.html">Listing List View 1</a>
+                                                <a href="#">Listing List View 1</a>
                                             </li>
                                             <li>
-                                                <a href="listing-list-view2.html">Listing List View 2</a>
+                                                <a href="#">Listing List View 2</a>
                                             </li>
                                             <li>
-                                                <a href="single-listing1.html">Listing Details 1</a>
+                                                <a href="single-listing1.php">Listing Details 1</a>
                                             </li>
                                             <li>
-                                                <a href="single-listing2.html">Listing Details 2</a>
+                                                <a href="#">Listing Details 2</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -87,11 +87,11 @@
                                                         <div class="menu-ctg-title">Listing</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="listing-grid-view1.html"><i class="fas fa-map-marker-alt"></i>Listing
+                                                                <a href="#"><i class="fas fa-map-marker-alt"></i>Listing
                                                                     Grid View 1</a>
                                                             </li>
                                                             <li>
-                                                                <a href="listing-grid-view2.html"><i class="fas fa-map-marker-alt"></i>Listing
+                                                                <a href="listing-grid-view2.php"><i class="fas fa-map-marker-alt"></i>Listing
                                                                     Grid View 2</a>
                                                             </li>
                                                         </ul>
@@ -100,23 +100,23 @@
                                                         <div class="menu-ctg-title">Listing</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="listing-grid-view3.html"><i class="fas fa-map-marker-alt"></i>Listing
+                                                                <a href="listing-grid-view3.php"><i class="fas fa-map-marker-alt"></i>Listing
                                                                     Grid View 3</a>
                                                             </li>
                                                             <li>
-                                                                <a href="listing-grid-view4.html"><i class="fas fa-map-marker-alt"></i>Listing
+                                                                <a href="listing-grid-view4.php"><i class="fas fa-map-marker-alt"></i>Listing
                                                                     Grid View 4</a>
                                                             </li>
                                                             <li>
-                                                                <a href="listing-grid-view5.html"><i class="fas fa-map-marker-alt"></i>Listing
+                                                                <a href="#"><i class="fas fa-map-marker-alt"></i>Listing
                                                                     Grid View 5</a>
                                                             </li>
                                                             <li>
-                                                                <a href="listing-list-view1.html"><i class="fas fa-map-marker-alt"></i>Listing
+                                                                <a href="#"><i class="fas fa-map-marker-alt"></i>Listing
                                                                     List View 1</a>
                                                             </li>
                                                             <li>
-                                                                <a href="listing-list-view2.html"><i class="fas fa-map-marker-alt"></i>Listing
+                                                                <a href="#"><i class="fas fa-map-marker-alt"></i>Listing
                                                                     List View 2</a>
                                                             </li>
                                                         </ul>
@@ -141,7 +141,7 @@
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a href="profile.html">
+                                                                <a href="profile.php">
                                                                     <i class="fab fa-elementor"></i>Profile
                                                                 </a>
                                                             </li>
@@ -159,7 +159,7 @@
                                                                     <i class="far fa-money-bill-alt"></i>Event Details</a>
                                                             </li>
                                                             <li>
-                                                                <a href="pricing.html">
+                                                                <a href="pricing.php">
                                                                     <i class="far fa-money-bill-alt"></i>Pricing Plan</a>
                                                             </li>
                                                             <li>
@@ -181,7 +181,7 @@
                                         <a href="#">Pages</a>
                                         <ul class="dropdown-menu-col-1">
                                             <li>
-                                                <a href="pricing.html">Pricing Plan</a>
+                                                <a href="pricing.php">Pricing Plan</a>
                                             </li>
                                             <li>
                                                 <a href="faq.html">Faq List</a>
@@ -193,9 +193,9 @@
                                     </li>
                                     <li><a href="#">Blog</a>
                                         <ul class="dropdown-menu-col-1">
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                                            <li><a href="blog-grid.php">Blog Grid</a></li>
                                             <li><a href="blog-list.html">Blog List</a></li>
-                                            <li><a href="single-blog.html">Blog Details</a></li>
+                                            <li><a href="single-blog.php">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="contacto.php">Contact</a></li>
@@ -206,9 +206,7 @@
                             <div class="nav-action-elements">
                                 <ul>
                                     <li>
-                                        <!-- <button type="button" class="login-btn" data-toggle="modal" data-target="#myModal">
-                                            <i class="flaticon-profile"></i>Login
-                                        </button> -->
+
 
                                         <?php if(isset($_SESSION['id'])): ?>
                                         <!-- Si hay una sesión activa, muestra el segundo botón -->

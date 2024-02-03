@@ -35,18 +35,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($_SESSION["idrol"] == 1) {
             echo '<script type="text/javascript">';
             echo 'window.location.href="../admin.php";';
-            // echo 'window.location.href="http://localhost/admin.php";';
-            // echo 'window.location.href = "http://' . $_SERVER['HTTP_HOST'] . '/admin.php";';
             echo '</script>';
         } elseif ($_SESSION["idrol"] == 2) {
             echo '<script type="text/javascript">';
             echo 'window.location.href="../admin.php";';
-            // echo 'window.location.href="http://localhost/admin.php";';
             echo '</script>';
         } elseif ($_SESSION["idrol"] == 3) {
             echo '<script type="text/javascript">';
             echo 'window.location.href="../usuario.php";';
-            // echo 'window.location.href="http://localhost/usuario.php";';
             echo '</script>';
         } else {
             // En caso de que el rol no sea válido, puedes redirigir a una página de error o hacer algo más

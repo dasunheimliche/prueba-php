@@ -952,135 +952,15 @@ include 'conn.php';
         </section>
         <!-- Add Listing Area End Here -->
         <!-- Footer Area Start Here -->
-        <footer>
-            <section class="footer-top-wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="single-item col-lg-3 col-md-6 col-12">
-                            <div class="footer-box">
-                                <div class="footer-logo">
-                                    <a href="index.html"><img src="img/footer-logo.png" class="img-fluid" alt="footer-logo"></a>
-                                </div>
-                                <div class="footer-about">
-                                    <p>Use the Upwork platform chat ande your desktop metro.</p>
-                                </div>
-                                <div class="footer-contact-info">
-                                    <ul>
-                                        <li><i class="fas fa-map-marker-alt"></i>34 Street kancas City United States
-                                            area.</li>
-                                        <li><i class="fas fa-phone"></i>+123 6669 000</li>
-                                        <li><i class="far fa-envelope"></i>info@listygo.com</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-item col-lg-3 col-md-6 col-12">
-                            <div class="footer-box">
-                                <div class="footer-header">
-                                    <h3>Top Highlights</h3>
-                                </div>
-                                <div class="widget_nav_menu">
-                                    <ul>
-                                        <li><a href="single-departments.html">Hotel</a></li>
-                                        <li><a href="single-departments.html">Restaurant</a></li>
-                                        <li><a href="single-departments.html">Appartment</a></li>
-                                        <li><a href="single-departments.html">SPA &amp; Beauty</a></li>
-                                        <li><a href="single-departments.html">Atuomation</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-item col-lg-3 col-md-6 col-12">
-                            <div class="footer-box">
-                                <div class="footer-header">
-                                    <h3>Support</h3>
-                                </div>
-                                <div class="widget_nav_menu">
-                                    <ul>
-                                        <li><a href="about-us.html">Live Chat</a></li>
-                                        <li><a href="about-us.html">FAQ</a></li>
-                                        <li><a href="faq.html">Stay safe</a></li>
-                                        <li><a href="appointment.html">Contact us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-item col-lg-3 col-md-6 col-12">
-                            <div class="footer-box">
-                                <div class="footer-header">
-                                    <h3>Follow Us On</h3>
-                                </div>
-                                <div class="footer-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                    </ul>
-                                </div>
-                                <ul class="folow-us">
-                                    <li>
-                                        <a href="#">
-                                            <img src="img/figure/follow1.jpg" alt="follow">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img src="img/figure/follow2.jpg" alt="follow">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="footer-bottom-wrap">
-                <div class="container">
-                    <div class="copyright">2018 Copyright © listygo.com</div>
-                </div>
-            </section>
-        </footer>
+
+        <?php include 'footer.php'; ?>
+        
         <!-- Footer Area End Here -->
     </div>
     <!-- Modal Start-->
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="title-default-bold mb-none">Login</div>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <form class="login-form">
-                        <input class="main-input-box" type="text" placeholder="User Name" />
-                        <input class="main-input-box" type="password" placeholder="Password" />
-                        <div class="inline-box mb-5 mt-4">
-                            <div class="checkbox checkbox-primary">
-                                <input id="modal-check-box" type="checkbox">
-                                <label for="modal-check-box">Remember Me</label>
-                            </div>
-                            <label class="lost-password"><a href="#">Lost your password?</a></label>
-                        </div>
-                        <div class="inline-box mb-5 mt-4">
-                            <button class="btn-fill" type="submit" value="Login">Login</button>
-                            <a href="#" class="btn-register"><i class="fas fa-user"></i>Register Here!</a>
-                        </div>
-                    </form>
-                    <label>Login connect with your Social Network</label>
-                    <div class="login-box-social">
-                        <ul>
-                            <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#" class="google"><i class="fab fa-google-plus-g"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
+    <?php include('loginModal.php'); ?>
+    
     <!-- Modal End-->
     <!-- Jquery Js -->
     <script src="/js/jquery-3.3.1.min.js"></script>
