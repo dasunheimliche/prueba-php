@@ -20,7 +20,7 @@
                                     <li><a href="#">Home</a>
                                         <ul class="dropdown-menu-col-1">
                                             <li><a href="index.php">Home 1</a></li>
-                                            <li><a href="index2.html">Home 2</a></li>
+                                            <li><a href="#">Home 2</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="about-us.php">About</a></li>
@@ -40,7 +40,7 @@
                                                 <a href="listing-grid-view4.php">Listing Grid View 4</a>
                                             </li>
                                             <li>
-                                                <a href="listing-grid-view5.html">Listing Grid View 5</a>
+                                                <a href="#">Listing Grid View 5</a>
                                             </li>
                                             <li>
                                                 <a href="#">Listing List View 1</a>
@@ -63,7 +63,7 @@
                                                 <a href="resultadosPrincipales.php">Event</a>
                                             </li>
                                             <li>
-                                                <a href="single-event.html">Event Details</a>
+                                                <a href="#">Event Details</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -76,11 +76,11 @@
                                                         <div class="menu-ctg-title">Home</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="index.html">
+                                                                <a href="index.php">
                                                                     <i class="fas fa-home"></i>Home 1</a>
                                                             </li>
                                                             <li>
-                                                                <a href="index2.html">
+                                                                <a href="#">
                                                                     <i class="fas fa-home"></i>Home 2</a>
                                                             </li>
                                                         </ul>
@@ -125,18 +125,18 @@
                                                         <div class="menu-ctg-title">Listing</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="single-listing1.html"><i class="fas fa-map-marker-alt"></i>Listing
+                                                                <a href="single-listing1.php"><i class="fas fa-map-marker-alt"></i>Listing
                                                                     Details 1</a>
                                                             </li>
                                                             <li>
-                                                                <a href="single-listing2.html"><i class="fas fa-map-marker-alt"></i>Listing
+                                                                <a href="#"><i class="fas fa-map-marker-alt"></i>Listing
                                                                     Details 2</a>
                                                             </li>
                                                         </ul>
                                                         <div class="menu-ctg-title">Pages</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="add-listing.html">
+                                                                <a href="add-listing.php">
                                                                     <i class="fab fa-elementor"></i>Add Listing
                                                                 </a>
                                                             </li>
@@ -151,11 +151,11 @@
                                                         <div class="menu-ctg-title">Pages</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="my-account.html">
+                                                                <a href="#">
                                                                     <i class="fas fa-user-circle"></i>My Account</a>
                                                             </li>
                                                             <li>
-                                                                <a href="single-event.html">
+                                                                <a href="single-event.php">
                                                                     <i class="far fa-money-bill-alt"></i>Event Details</a>
                                                             </li>
                                                             <li>
@@ -163,11 +163,11 @@
                                                                     <i class="far fa-money-bill-alt"></i>Pricing Plan</a>
                                                             </li>
                                                             <li>
-                                                                <a href="faq.html">
+                                                                <a href="faq.php">
                                                                     <i class="fas fa-file-archive"></i>Faq List</a>
                                                             </li>
                                                             <li>
-                                                                <a href="404.html">
+                                                                <a href="404.php">
                                                                     <i class="fas fa-exclamation-triangle"></i>404
                                                                     Error</a>
                                                             </li>
@@ -184,17 +184,17 @@
                                                 <a href="pricing.php">Pricing Plan</a>
                                             </li>
                                             <li>
-                                                <a href="faq.html">Faq List</a>
+                                                <a href="faq.php">Faq List</a>
                                             </li>
                                             <li>
-                                                <a href="404.html">404 Error</a>
+                                                <a href="404.php">404 Error</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Blog</a>
                                         <ul class="dropdown-menu-col-1">
                                             <li><a href="blog-grid.php">Blog Grid</a></li>
-                                            <li><a href="blog-list.html">Blog List</a></li>
+                                            <li><a href="blog-list.php">Blog List</a></li>
                                             <li><a href="single-blog.php">Blog Details</a></li>
                                         </ul>
                                     </li>

@@ -60,11 +60,10 @@
                                 </div>
                                 <div class="footer-social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/people/Honvivo/100093434407152/"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="https://www.instagram.com/honvivo/"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                        <!-- <li><a href="#" style="padding-top:0px;"><img src="img/brand/tik-tok.png" style="max-width: 20px;" alt="TikTok"></a></li> -->
-                                        <li><a href="#"><i class="fa-tiktok"></i></a></li>
+                                        <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#" class="google"><i class="fab fa-google-plus-g"></i></a></li>
                                     </ul>
                                 </div>
                                 <ul class="folow-us">
