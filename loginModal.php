@@ -6,9 +6,10 @@
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
-          <form class="login-form" method="POST" action="php/login.php">
+          <form id="login-form" class="login-form">
             <input class="main-input-box" type="text" name="correo" placeholder="Correo" required />
             <input class="main-input-box" type="password" name="contrasena" placeholder="Contraseña" required />
+            <div class="login-response alert"></div>
             <div class="inline-box mb-5 mt-4">
               <div class="checkbox checkbox-primary">
                 <input id="checkbox1" type="checkbox">
@@ -36,6 +37,7 @@
                     echo "<p style='color: red;'>$error_message</p>";
                 }
             ?>
+            
         </div>
       </div>
     </div>

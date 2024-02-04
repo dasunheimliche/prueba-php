@@ -578,7 +578,6 @@
 
   if (contactForm.length) {
     contactForm.validator().on("submit", function (e) {
-      console.log(contactForm.serialize());
       var $this = $(this),
         $target = contactForm.find(".form-response");
       if (e.isDefaultPrevented()) {
@@ -587,7 +586,6 @@
         );
       } else {
         $.ajax({
-          // url: "vendor/php/contact-form-process.php",
           url: "http://localhost/php/contact-form-process.php",
           type: "POST",
           data: contactForm.serialize(),
@@ -606,6 +604,38 @@
               $target.html(
                 "<div class='alert alert-success'><p>" + text + "</p></div>"
               );
+            }
+          },
+        });
+        return false;
+      }
+    });
+  }
+
+  /*-------------------------------------
+    lOGIN FORM
+    -------------------------------------*/
+
+  var loginForm = $("#login-form");
+
+  if (loginForm.length) {
+    loginForm.on("submit", function (e) {
+      var $target = $(".login-response");
+      if (e.isDefaultPrevented()) {
+        $target.html(
+          "<div class='alert alert-success'><p>Please select all required field.</p></div>"
+        );
+      } else {
+        $.ajax({
+          url: "http://localhost/php/login.php",
+          type: "POST",
+          data: loginForm.serialize(),
+
+          success: function (text) {
+            if (text.startsWith("Error")) {
+              $target.html("<div><p>" + text + "</p></div>");
+            } else {
+              window.location.href = text;
             }
           },
         });

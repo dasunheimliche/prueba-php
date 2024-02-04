@@ -51,6 +51,7 @@ html {
   align-items: center; /* Alinea verticalmente */
   gap: 10px; /* Espacio entre la imagen y el texto */
 }
+
 .item-logo2 {
   display: block;
   align-items: center; /* Alinea verticalmente */
@@ -10923,6 +10924,16 @@ footer {
 @media only screen and (max-width: 767px) {
   .footer-box .footer-header h3 {
     font-size: 22px;
+  }
+
+  .product-box .item-img .item-logo {
+    position: static;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+
+  .product-box .bg--gradient-50:after {
+    opacity: 0;
   }
 }
 @media only screen and (max-width: 575px) {

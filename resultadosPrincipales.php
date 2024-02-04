@@ -185,7 +185,6 @@ session_start();
                                 echo "<div class='row'>";
                                 foreach ($resultados as $evento) {
                                     
-                                    echo "<script>console.log(" . json_encode($evento) . ");</script>";
                                     echo "<div class='col-md-6 col-12'>";
                                     echo "<div class='product-box'>";
                                     echo "<div class='item-img bg--gradient-50'>";
